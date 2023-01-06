@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --text-color:#302e29;
+    --main-color:#ff9100;
+    --second-color:#858585;
+    --bg-color:#fffbf6;
+    --big-font: 4.5rem;
+    --h2-font:2.6rem;
+    --p-font:1.1rem;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+
+}
+
+ .header{
+     width: 100%;
+     padding: 30px 15%;
+     justify-content: space-between;
+     align-items: center;
+     display: flex;
+     transition: all 38s ease;
+ }
+
+ .header ul li{
+     display: inline-block;
+     padding: 5px 10px;
+     font-size: var(--p-font);
+     color: var(--text-color);
+     font-weight: 600;
+     border-bottom: 2px solid transparent;
+     transition: all 38s ease;
+     margin: 2px 25px;
+
+ }
+
+ .header ul li a:hover{
+     border-bottom: 2px solid var(--main-color);
+     color: var(--main-color);
+ }
+
+ .header ul li a{
+
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 500;
+ }
+ .header h1{
+     font-size: 30px;
+     font-weight: 700;
+ }
+ .header span{
+     color: var(--main-color);
+ }
+
+ .h-icon{
+    border-radius: 25px;
+    background: #ff9100;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+ }
+
+ .h-icon i{
+     font-size: 22px;
+     color: #fffbf6;
+     padding: 5px 5px;
+ }
+
+ #menu-icon{
+     font-size: 32px;
+     color: #fffbf6;
+     z-index: 10001;
+     cursor: pointer;
+
+ }
+
+ #home {
+     padding: 90px 15% 80px;
+ }
+
+ .home{
+height: 88vh;
+width: 100%;
+position: relative;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+align-items: center;
+gap: 2rem;   
+     
+ }
+
+ .home-img img{
+     width: 80%;
+     height: auto;
+ }
+
+ .home-text h1{
+     font-size: var(--big-font);
+     line-height: 1.2;
+     margin-bottom: 2rem;
+ }
+
+ .home-text p{
+     font-size: var(--p-font);
+     font-weight: 500;
+     color: var(--second-color);
+     line-height: 32px;
+     margin-bottom: 2.3rem;
+ }
